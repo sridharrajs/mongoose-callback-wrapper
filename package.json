@@ -1,0 +1,33 @@
+{
+  "name": "mongoose-callback-wrapper",
+  "version": "1.0.0",
+  "description": "Wrapper for mongoose callback ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sridharrajs/mongoose-callback-wrapper.git"
+  },
+  "keywords": [
+    "mongodb",
+    "mongoose",
+    "nosql",
+    "orm",
+    "callback",
+    "query",
+    "schema",
+    "document",
+    "model"
+  ],
+  "author": "sridharrajs <me@sridhar.co> (http://sridhar.co)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sridharrajs/mongoose-callback-wrapper/issues"
+  },
+  "homepage": "https://github.com/sridharrajs/mongoose-callback-wrapper#readme",
+  "dependencies": {
+    "lodash": "^4.0.1"
+  }
+}
