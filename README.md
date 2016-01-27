@@ -2,7 +2,7 @@
 
 A wrapper for mongoose callbacks
 
-   npm install mongoose-callback-wrapper
+    npm install mongoose-callback-wrapper
    
 Usual way of using mongoose orm
 
