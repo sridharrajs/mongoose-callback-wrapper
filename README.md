@@ -6,9 +6,10 @@ A wrapper for mongoose callbacks
    
 Usual way of using mongoose orm
 
-    While querying for records, we might want to trim the attributes of modal based on certain context.
+   While querying for records, we might want to trim the attributes of modal based on certain context.
     
-    ex:
+  ex:
+
     const ATTRIBUTES = [
         '_id',
         'password',
@@ -32,13 +33,13 @@ Usual way of using mongoose orm
                 return callback(err);
             }
             let users = _.map(items, (user) => {
-                return _.pick(row, PUBLIC_ATTRIBUTES);
+                return _.pick(user, PUBLIC_ATTRIBUTES);
             });
             return callback(null, users);
         });
     };
     
-    with mongoose-wrapper-callback
+   with ```mongoose-callback-wrapper``` 
     
     let wrapper = require('mongoose-callback-wrapper');
     
