@@ -2,13 +2,13 @@
 
 A wrapper for mongoose callbacks
 
-    npm install mongoose-callback-wrapper
+    npm install mongoose-callback-wrapper --save
    
 Usual way of using mongoose orm
 
    While querying for records, we might want to trim the attributes of modal based on certain context.
     
-  ex:
+  
 
     const ATTRIBUTES = [
         '_id',
@@ -50,8 +50,11 @@ Usual way of using mongoose orm
         }, wrappedCallback);
     };
     
-## Tests
-    To run the test suite, first install the dependencies, then run npm test:
-    
-## License
-    [GPL 3.0](http://www.gnu.org/licenses/gpl-3.0.en.html)
+# Tests
+   To run the test suite, first install the dependencies, then run npm test:  
+
+    npm install
+    npm test
+
+# License
+   [GPL 3.0](http://www.gnu.org/licenses/gpl-3.0.en.html)
